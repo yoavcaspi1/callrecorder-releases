@@ -22,8 +22,8 @@
             <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v0.1.0/CallRecorder.zip"
-                       sparkle:edSignature="Drg0K0l4dOiGMRz+2umxKMdgCl/0Ku/0DVsibvS6fSJ5tJfAo4H0t3sepEHd8GQtAyzvSKRWgOt7RDFDwd6VBg=="
-                       length="3992450"
+                       sparkle:edSignature="j0C3V4KeFwCBSwgGObHEKIlrU2oLPcAawlcp60lgickh35y9ogIhiEI82mjqARZiAh9spdgFCDYaGjO2iQBwBw=="
+                       length="3993786"
                        type="application/octet-stream"/>
         </item>
     </channel>
