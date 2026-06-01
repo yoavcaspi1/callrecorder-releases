@@ -6,6 +6,25 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 0.3.0</title>
+            <pubDate>Sun, 01 Jun 2026 15:35:00 +0300</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 0.3.0</h2>
+                <p>Quality and organization improvements:</p>
+                <ul>
+                    <li>Per-day date folders for recordings</li>
+                    <li>Consistent output volume normalization</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v0.3.0/CallRecorder.zip"
+                       sparkle:edSignature="N5BSuBxkYV4x5ybnHgf/XQq6846GXf/Gb1b3kFDJ8FgABhymiriALLei9jY2VOh9qIgWzsbmIU/dthn+TLMZCA=="
+                       length="4083442"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 0.2.0</title>
             <pubDate>Sun, 01 Jun 2026 13:41:00 +0300</pubDate>
             <description><![CDATA[
