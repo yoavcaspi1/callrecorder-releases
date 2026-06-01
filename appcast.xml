@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Call Recorder Updates</title>
+        <link>https://github.com/yoavcaspi1/callrecorder-releases</link>
+        <description>Appcast feed for Call Recorder automatic updates.</description>
+        <language>en</language>
+        <item>
+            <title>Call Recorder 0.1.0</title>
+            <pubDate>Sun, 01 Jun 2026 13:12:00 +0300</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 0.1.0</h2>
+                <p>Initial release with full call recording functionality:</p>
+                <ul>
+                    <li>Two-track recording (microphone + system audio)</li>
+                    <li>Automatic call detection</li>
+                    <li>Menu bar interface with recording controls</li>
+                    <li>Sparkle auto-update support</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v0.1.0/CallRecorder.zip"
+                       sparkle:edSignature="Drg0K0l4dOiGMRz+2umxKMdgCl/0Ku/0DVsibvS6fSJ5tJfAo4H0t3sepEHd8GQtAyzvSKRWgOt7RDFDwd6VBg=="
+                       length="3992450"
+                       type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>
