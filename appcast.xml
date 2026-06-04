@@ -6,6 +6,25 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 0.5.2</title>
+            <pubDate>Wed, 04 Jun 2026 15:41:17 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 0.5.2</h2>
+                <p>Bug fixes:</p>
+                <ul>
+                    <li>Voice recognition (speaker naming) now works reliably - fixes a sample-rate bug that corrupted enrolled voiceprints. If you enrolled a voice on an earlier version, please delete it and re-enrol (Preferences &gt; Voices).</li>
+                    <li>Pre-call echo removed: the brief echo at the very start of a recording (the calling app's self-monitor/sidetone before the call connects) is now suppressed. In-call audio is unchanged.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>0.5.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v0.5.2/CallRecorder.zip"
+                       sparkle:edSignature="Y0psI5xONs6r/dNP2R7aK9X7phSlq3rQidAA8x9lLV4uaMx5nUH32e3lWfbQDB4U4PqOlZ+obCV+HNBhUiMVCA=="
+                       length="10884451"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 0.5.1</title>
             <pubDate>Wed, 04 Jun 2026 12:19:46 +0100</pubDate>
             <description><![CDATA[
