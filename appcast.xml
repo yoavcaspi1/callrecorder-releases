@@ -6,6 +6,25 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 0.5.1</title>
+            <pubDate>Wed, 04 Jun 2026 12:19:46 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 0.5.1</h2>
+                <p>Improvements:</p>
+                <ul>
+                    <li>Redesigned Preferences with a modern macOS System Settings look: colored sidebar icons, grouped cards, cleaner layout across every tab</li>
+                    <li>In-call spectrum visualiser retuned so normal speech animates the middle of the bars (not bunched in the bass)</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v0.5.1/CallRecorder.zip"
+                       sparkle:edSignature="jGty/RHaerhOVwCT9e0vUWGtrMCbf0yEZsA9xUUEb8pCBV0CPHIgscJYQK2cL1N9Cs8uSIQqEAOZW3i9IzJCAQ=="
+                       length="10882198"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 0.5.0</title>
             <pubDate>Wed, 04 Jun 2026 11:17:00 +0100</pubDate>
             <description><![CDATA[
