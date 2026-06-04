@@ -6,6 +6,29 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 0.5.0</title>
+            <pubDate>Wed, 04 Jun 2026 11:17:00 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 0.5.0</h2>
+                <p>Major feature release:</p>
+                <ul>
+                    <li>Wideband audio: recordings now capture at 32kHz HE-AAC for noticeably crisper, clearer voices (especially the remote party), at about the same file size</li>
+                    <li>New floating in-call pill with pause, stop &amp; save, and cancel controls, plus a live audio spectrum</li>
+                    <li>Gapless pause/resume (also from the menu)</li>
+                    <li>Voice-print enrolment: enrol people's voices in Preferences &gt; Voices so transcripts name speakers instead of "Speaker 1/2"</li>
+                    <li>Auto-discards a recording when a call is answered on your iPhone instead of the Mac</li>
+                    <li>Interface refresh and Preferences fixes (sidebar, version display)</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v0.5.0/CallRecorder.zip"
+                       sparkle:edSignature="cTeQjJED+fxVFPTHBSIauXTZ1wDrXo6XAOLiPdRpVzS7PTAF2Pw89lKA+XTRjY7vv4OR1pzjvc2flp2xw55RBw=="
+                       length="10866777"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 0.4.5</title>
             <pubDate>Tue, 03 Jun 2026 11:40:00 +0300</pubDate>
             <description><![CDATA[
