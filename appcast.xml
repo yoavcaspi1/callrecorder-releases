@@ -6,6 +6,28 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 0.5.3</title>
+            <pubDate>Mon, 09 Jun 2026 14:38:04 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 0.5.3</h2>
+                <p>Improvements and fixes:</p>
+                <ul>
+                    <li>In-call pill timer now matches the menu-bar timer exactly.</li>
+                    <li>Recordings are now organised into Year / Date folders.</li>
+                    <li>Changing the recordings folder now asks whether to move your existing recordings to the new location.</li>
+                    <li>Fixed: a call answered on the Mac (including switching to AirPods mid-call) is no longer wrongly discarded as "answered on your phone".</li>
+                    <li>Discarded recordings are now moved to a "Discarded" folder instead of deleted, and are auto-removed after a configurable period (default 30 days).</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>34</sparkle:version>
+            <sparkle:shortVersionString>0.5.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v0.5.3/CallRecorder.zip"
+                       sparkle:edSignature="4ztxwlwSL/BJgfpjdShLp30vu35moagluNSEWo23U2tDBWn9ngavwaSkhaJOvNaOALK0amFuERjCsowD5BshDw=="
+                       length="10929678"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 0.5.2</title>
             <pubDate>Wed, 04 Jun 2026 15:41:17 +0100</pubDate>
             <description><![CDATA[
