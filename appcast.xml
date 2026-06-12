@@ -6,6 +6,27 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 0.5.4</title>
+            <pubDate>Thu, 12 Jun 2026 11:18:12 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 0.5.4</h2>
+                <p>Performance and stability improvements:</p>
+                <ul>
+                    <li>Performance: processing after long calls now uses a fraction of the memory it used to.</li>
+                    <li>Stability: fixed small resource leaks and tightened recording finalisation; large internal cleanup.</li>
+                    <li>Cancelled recordings now reliably land in the Discarded folder, including when cancelled right at the start.</li>
+                    <li>The pill's cancel button is now labelled "Cancel &amp; discard" to match the safer behaviour (recordings go to the Discarded folder, not deleted).</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>37</sparkle:version>
+            <sparkle:shortVersionString>0.5.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v0.5.4/CallRecorder.zip"
+                       sparkle:edSignature="AstD/otx2ofB4PcSxYrvDnoHFSbYRzRdmesOqsgt62Bny+6fxv3XOsmI9qKMrlOe5NnIA+ivsNjwAxjFJRk/CQ=="
+                       length="10938474"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 0.5.3</title>
             <pubDate>Mon, 09 Jun 2026 14:38:04 +0100</pubDate>
             <description><![CDATA[
