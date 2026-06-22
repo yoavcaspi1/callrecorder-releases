@@ -19,7 +19,7 @@
             <sparkle:version>39</sparkle:version>
             <sparkle:shortVersionString>0.5.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v0.5.5/CallRecorder.zip"
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v0.5.5/CallRecorder-0.5.5.zip"
                        sparkle:edSignature="C64EhRotiex30S+kIgLXWuF05zf3HMsTQcDDy270Lj9/30cKAdbc7f0wtWoDjbrgF034cxrg5nSBxrgNa5fJBg=="
                        length="10978459"
                        type="application/octet-stream"/>
