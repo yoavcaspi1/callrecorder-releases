@@ -6,6 +6,25 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 0.5.5</title>
+            <pubDate>Sun, 22 Jun 2026 10:43:35 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 0.5.5</h2>
+                <p>New features and improvements:</p>
+                <ul>
+                    <li>Auto-rename recordings: After transcription, recordings are now renamed to include who you spoke with and what the call was about. Format: yyyy.MM.dd@HH.mm Company - Person - Subject. Configurable in Preferences &gt; Transcription.</li>
+                    <li>Permission setup is more reliable: microphone, screen-recording-needs-restart, and notification recovery now guide you correctly.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>39</sparkle:version>
+            <sparkle:shortVersionString>0.5.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v0.5.5/CallRecorder.zip"
+                       sparkle:edSignature="C64EhRotiex30S+kIgLXWuF05zf3HMsTQcDDy270Lj9/30cKAdbc7f0wtWoDjbrgF034cxrg5nSBxrgNa5fJBg=="
+                       length="10978459"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 0.5.4</title>
             <pubDate>Thu, 12 Jun 2026 11:18:12 +0100</pubDate>
             <description><![CDATA[
