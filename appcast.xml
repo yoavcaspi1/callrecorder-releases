@@ -6,6 +6,30 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 0.6.0</title>
+            <pubDate>Sun, 22 Jun 2026 13:30:00 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 0.6.0</h2>
+                <p>Local, on-device transcription:</p>
+                <ul>
+                    <li>New engine picker with one-click download (Apple Speech, ivrit.ai for Hebrew, WhisperKit) - transcribe without the cloud or an API key.</li>
+                    <li>On-device translation option (no key needed) for supported languages.</li>
+                    <li>Automatic speaker names: clear two-party calls are labelled with your name vs the other party.</li>
+                    <li>The recording menu now shows the file currently being transcribed.</li>
+                    <li>Each engine can have a primary + fallback.</li>
+                    <li>The in-call pill can now be placed over the menu bar (defaults to centered, top).</li>
+                    <li>Taller Preferences window; clearer 'model version' wording.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>50</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v0.6.0/CallRecorder-0.6.0.zip"
+                       sparkle:edSignature="ggx5M2v5DRtyEDs1MPJf3W7CbNM6KVK2XnHJg6hCbW+25DAAnhnSXYSPxnEk7xtYf/bTpA9mUagodPn5znI3Bw=="
+                       length="19407369"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 0.5.5</title>
             <pubDate>Sun, 22 Jun 2026 10:43:35 +0100</pubDate>
             <description><![CDATA[
