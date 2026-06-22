@@ -6,6 +6,25 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 0.6.1</title>
+            <pubDate>Sun, 22 Jun 2026 17:53:00 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 0.6.1</h2>
+                <p>File and folder names are now always in English, even on Hebrew calls:</p>
+                <ul>
+                    <li>Names are transliterated to Latin script (e.g. יובל becomes Yuval).</li>
+                    <li>Subjects are translated to English.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>52</sparkle:version>
+            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v0.6.1/CallRecorder-0.6.1.zip"
+                       sparkle:edSignature="h32wuhjyC7WB24ueR/TiudhUzNSN9AiplB8M47AKzYOnUMeBRotBbnoKtdIXu7BR6fiJQ/klSeMqkjDZDgNZDA=="
+                       length="15992213"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 0.6.0</title>
             <pubDate>Sun, 22 Jun 2026 13:30:00 +0100</pubDate>
             <description><![CDATA[
