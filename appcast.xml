@@ -6,6 +6,29 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 0.7.0</title>
+            <pubDate>Sat, 11 Jul 2026 16:11:14 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 0.7.0</h2>
+                <p>Major reliability release:</p>
+                <ul>
+                    <li>Recordings can no longer be lost to transient errors - failed transcriptions and recovery problems now retry instead of discarding audio.</li>
+                    <li>Fixed freezes when switching microphone mid-recording and when quitting during a recording (quit now saves and exits in about two seconds).</li>
+                    <li>Interrupted recordings are reconstructed on the next launch, even if one audio track is missing.</li>
+                    <li>The transcription queue retries transient failures automatically instead of stalling.</li>
+                    <li>Manage local transcription models from Preferences: reveal in Finder or delete to free disk space (with confirmation).</li>
+                    <li>Hardened model downloads, API-key storage, and log privacy.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>109</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v0.7.0/CallRecorder-0.7.0.zip"
+                       sparkle:edSignature="UirxeFp88GwljuFIs6HNdOtBFRTHCgmHxO9BJA17l7SVg8L5qCQJxCx1f3RM/BdT9Qb7BA0OhUQWh26D2/8ECQ=="
+                       length="15027592"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 0.6.1</title>
             <pubDate>Sun, 22 Jun 2026 17:53:00 +0100</pubDate>
             <description><![CDATA[
