@@ -6,6 +6,27 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 1.0 (build 111)</title>
+            <pubDate>Mon, 13 Jul 2026 12:00:06 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 1.0 (build 111)</h2>
+                <ul>
+                    <li>A new call is always auto-detected after manually stopping and saving a recording.</li>
+                    <li>The update window shows the build number.</li>
+                    <li>Fixed a CPU spin after recordings ended.</li>
+                    <li>Chunked-mix alignment fixes for long recordings.</li>
+                    <li>Raw audio tracks kept forever by default (configurable in Preferences).</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>111</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v1.0.111/CallRecorder-1.0.zip"
+                       sparkle:edSignature="Lqnb5n2h3u7QpdtUvFM7WdVGwJ5MKuuYJrX/XmCid/LJsPhDgDmc9QDiXdlBEqtZR1GlbKChwpscd3Ze49XxAA=="
+                       length="15031768"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 1.0</title>
             <pubDate>Sat, 11 Jul 2026 16:28:44 +0100</pubDate>
             <description><![CDATA[
