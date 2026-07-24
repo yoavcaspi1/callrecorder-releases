@@ -6,6 +6,27 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 1.0 (build 113)</title>
+            <pubDate>Fri, 24 Jul 2026 11:05:00 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 1.0 (build 113)</h2>
+                <ul>
+                    <li>Overhauled the first-run permissions setup with a clearer, simpler onboarding wizard.</li>
+                    <li>Added recovery from a denied microphone permission: reset the permission and re-prompt without reinstalling.</li>
+                    <li>Auto-relaunches after you grant Screen Recording, and brings the app back to front when you return from System Settings.</li>
+                    <li>Update dialogs now show the build number (for example "1.0 (build 113)").</li>
+                    <li>New reveal-toggle secure fields for entering API keys.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>113</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v1.0.113/CallRecorder-1.0.zip"
+                       sparkle:edSignature="MwVZe66kecyMsXb23w80USykFfNN57vSurGMoId9MOu4j+loysQcgiZDLcNIyE4WWUVDg8HXbnGE8BuHyP32AQ=="
+                       length="15108587"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 1.0 (build 112)</title>
             <pubDate>Fri, 24 Jul 2026 09:19:05 +0100</pubDate>
             <description><![CDATA[
