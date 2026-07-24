@@ -6,6 +6,27 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 1.0 (build 112)</title>
+            <pubDate>Fri, 24 Jul 2026 09:19:05 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 1.0 (build 112)</h2>
+                <ul>
+                    <li>Refreshed design language across the menu bar menu, recording pills, equalizer, and Preferences pane.</li>
+                    <li>Added a confirmation dialogue before discarding a recording.</li>
+                    <li>Falls back to the system default microphone when the selected device is unavailable.</li>
+                    <li>Added in-app microphone recording for voiceprint enrollment, with UX improvements.</li>
+                    <li>Fixed 3-channel microphone format creation.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>112</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v1.0.112/CallRecorder-1.0.zip"
+                       sparkle:edSignature="/IuuU0Jtu5wzq8ZolSQ6JR3FCbJxILoEriHSrKjz5Fq7BnKZ4vdVpnsgQXXkW3Q4bE5ttpRLzx5OjeZlTTHwAg=="
+                       length="15122900"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 1.0 (build 111)</title>
             <pubDate>Mon, 13 Jul 2026 12:00:06 +0100</pubDate>
             <description><![CDATA[
