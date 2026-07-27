@@ -6,6 +6,24 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 1.0 (build 116)</title>
+            <pubDate>Mon, 27 Jul 2026 14:46:16 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 1.0 (build 116)</h2>
+                <ul>
+                    <li>Fixed the WhisperKit local transcription engine, which could never work. Its model download always failed, and even with a model in place it failed to start, so selecting it silently fell through to the cloud engine instead of transcribing on your Mac.</li>
+                    <li>WhisperKit now downloads the intended large-v3-turbo model and transcribes locally, with word timings and language detection as expected. The model is around 1.6 GB and goes to your chosen model storage folder, where the Model Storage section in Preferences shows and manages it as usual.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>116</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v1.0.116/CallRecorder-1.0.zip"
+                       sparkle:edSignature="8mweAtwrNP2Fovwr35GStljaVgOtQLLx5avciTQOvsiIF6nu6uHjc9PXELIa3FzETMlJSPSbvYnJN3qGFCxjAw=="
+                       length="15213541"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 1.0 (build 115)</title>
             <pubDate>Mon, 27 Jul 2026 13:11:43 +0100</pubDate>
             <description><![CDATA[
