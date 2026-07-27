@@ -6,6 +6,30 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 1.0 (build 115)</title>
+            <pubDate>Mon, 27 Jul 2026 13:11:43 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 1.0 (build 115)</h2>
+                <ul>
+                    <li>New Model Storage section in Preferences &gt; Transcription: shows the full path where downloaded speech models are kept, with a Show in Finder button, so it is always clear what is stored where.</li>
+                    <li>Choose your own model storage folder. Pick any folder you can write to, or reset to the default, and the app offers to move existing models across rather than re-downloading them. Both the WhisperKit and ivrit.ai Hebrew engines follow your choice.</li>
+                    <li>If a custom model folder is missing or its disk is not connected, the app warns and falls back to the default location instead of failing or re-downloading to the wrong place. Your chosen folder is remembered and used again once it is available.</li>
+                    <li>Per-model disk usage breakdown, marking each model as in use or unused by your selected engine.</li>
+                    <li>New Delete unused models action, which itemises every file and its size and asks for confirmation before removing anything. Recordings, transcripts, and the built-in voice-print model are never touched. It appears only when there is real space to reclaim.</li>
+                    <li>Clears the leftover huggingface folder an older version created in Documents.</li>
+                    <li>Each transcription engine now states whether it supports the custom terms list, and the Custom Terms editor is greyed out with an explanation when the selected engine ignores it. Your terms are always kept.</li>
+                    <li>Fixed WhisperKit model detection, which previously reported an already-downloaded model as missing.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>115</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v1.0.115/CallRecorder-1.0.zip"
+                       sparkle:edSignature="W8j+jFoAAear/zr92VP9OqUpzfOHguu8+QAFbYjUn7B8gPJSxf7YzeZcYy8ogIFKcB30RdgahZbfFspSI12rBQ=="
+                       length="15213290"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 1.0 (build 114)</title>
             <pubDate>Mon, 27 Jul 2026 11:40:08 +0100</pubDate>
             <description><![CDATA[
