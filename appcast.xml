@@ -6,6 +6,30 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 1.0 (build 122)</title>
+            <pubDate>Sat, 08 Aug 2026 17:35:00 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 1.0 (build 122)</h2>
+                <ul>
+                    <li>New screenshot button on the in-call pill: one click captures the screen and saves it as a JPEG alongside the recording. A reminder bubble points at the camera button when a call starts.</li>
+                    <li>Every non-English or mixed-language call now also produces an English transcript.</li>
+                    <li>Transcription failures now raise a notification and retry hourly, and the menu bar queue counter stays live during calls.</li>
+                    <li>Custom Terms moved to its own Preferences tab; the editor fills the window and keeps entries alphabetical.</li>
+                    <li>The Preferences window is now resizable.</li>
+                    <li>The OpenAI transcription model is auto-discovered, so new models are picked up without an app update.</li>
+                    <li>Fixed the red record dot sometimes staying on the menu bar after a recording stopped.</li>
+                    <li>The idle menu bar icon is now tinted Harbor blue.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>122</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v1.0.122/CallRecorder-1.0.zip"
+                       sparkle:edSignature="fhQCPhcodUEDjxs2Dl7eGHgv5yXFAgVfIanZuKw9oaMaPcUnDJwc/YTv+Hmxog5utJh+9KuCjci/ZrDppoj5Bw=="
+                       length="16667775"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 1.0 (build 116)</title>
             <pubDate>Mon, 27 Jul 2026 14:46:16 +0100</pubDate>
             <description><![CDATA[
