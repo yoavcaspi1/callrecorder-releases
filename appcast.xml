@@ -6,6 +6,25 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 1.0 (build 123)</title>
+            <pubDate>Mon, 10 Aug 2026 13:59:49 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 1.0 (build 123)</h2>
+                <ul>
+                    <li>New Excluded Contacts feature: list WhatsApp contacts in Preferences &gt; Exclusions and calls with them default to Don't Record - the pop-up counts down to discard, and a declined recording is deleted permanently instead of going to the Discarded folder. Click Record on the pop-up to override for that call.</li>
+                    <li>The caller is identified from WhatsApp's call window, which needs a one-time Accessibility permission (a banner in the new Preferences section links to System Settings). Without the permission, or for any other call app, everything behaves as before.</li>
+                    <li>Matching is forgiving: capitalisation, emoji, and accents in contact names are ignored, and partial names match. Group calls match on the group name.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>123</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v1.0.123/CallRecorder-1.0.zip"
+                       sparkle:edSignature="2IfbTpkp764He4fSAvH1XF0oCbzss7e9Qyfx+Sj21j9PjpMU3s6+OrQfBjHzPX7ee9QkukgU1lx3sQJ1jsRlCQ=="
+                       length="16697744"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 1.0 (build 122)</title>
             <pubDate>Sat, 08 Aug 2026 17:35:00 +0100</pubDate>
             <description><![CDATA[
