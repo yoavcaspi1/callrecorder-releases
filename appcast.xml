@@ -6,6 +6,26 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 1.0 (build 124)</title>
+            <pubDate>Mon, 10 Aug 2026 15:29:59 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 1.0 (build 124)</h2>
+                <ul>
+                    <li>Hardening for the new Excluded Contacts feature: fixed a rare timing window where the pop-up countdown could act on a choice you had already overridden, and another where a slow caller lookup could affect a later recording's cancel behaviour.</li>
+                    <li>The caller lookup no longer writes any window contents to the log, so an excluded contact's name leaves no trace anywhere.</li>
+                    <li>Faster, safer caller detection: the window title is checked first, deeper scanning is capped, and a resized chat window can no longer be mistaken for a call window.</li>
+                    <li>The Accessibility banner in Preferences now opens the system prompt directly and clears by itself once the permission is granted.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>124</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v1.0.124/CallRecorder-1.0.zip"
+                       sparkle:edSignature="x7tgPvf+vSaG/95w0XMEsSNru/Zm0ZdugR56pIRDG9m0s8543QUT2YTJ1VFmPZZsOqjdSU/WBXYTLPRfVDLCBg=="
+                       length="16704095"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 1.0 (build 123)</title>
             <pubDate>Mon, 10 Aug 2026 13:59:49 +0100</pubDate>
             <description><![CDATA[
