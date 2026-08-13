@@ -6,6 +6,27 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 1.0 (build 126)</title>
+            <pubDate>Thu, 13 Aug 2026 12:47:08 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 1.0 (build 126)</h2>
+                <ul>
+                    <li>The per-call language choice (e.g. Hebrew) now resets to Auto-detect the moment a call ends, instead of after the transcript is ready. The next call's pop-up always opens on your default, even while a previous call is still transcribing.</li>
+                    <li>Declining a recording (Don't Record) now also resets the language choice; previously a picked language could stick around indefinitely.</li>
+                    <li>Transcription failures are no longer silent: a red menu bar row and alert badge appear when calls cannot be transcribed (e.g. an invalid API key), cleared when the backlog drains.</li>
+                    <li>New Test button next to each API key in Preferences checks the key against the provider instantly, and a new Transcribe Queue Now menu action retries the untranscribed backlog straight after fixing a key.</li>
+                    <li>API keys pasted with Cmd-V are trimmed of stray whitespace, and the log now records whether a failure alert was actually delivered or suppressed by Focus.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>126</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v1.0.126/CallRecorder-1.0.zip"
+                       sparkle:edSignature="wd2vIaG/mkN32LVsFxX7lpsEqdkeswQKjCbPO7ICvEOc5yQeKTKpdJ+yImzOPQEwSVuhgz0gxVSETb1l17yPBw=="
+                       length="16732500"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 1.0 (build 124)</title>
             <pubDate>Mon, 10 Aug 2026 15:29:59 +0100</pubDate>
             <description><![CDATA[
