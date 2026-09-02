@@ -6,6 +6,26 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 1.0 (build 128)</title>
+            <pubDate>Wed, 02 Sep 2026 14:46:51 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 1.0 (build 128)</h2>
+                <ul>
+                    <li>Fixed a crash that killed the app about six seconds after a call ended. Two menu bar routines called each other with nothing to break the cycle, exhausting the main thread stack. Six crashes between 25 Aug and 01 Sep 2026 traced to this, each one also taking down the post-call mixing and transcription for that call.</li>
+                    <li>Preferences now catches a wrong-shaped ElevenLabs API key the moment you paste it, and names the actual mistake instead of just saying "invalid". Pasting an account identifier instead of the secret key previously saved silently, then failed every transcription with HTTP 400 and parked the backlog.</li>
+                    <li>The Test button no longer reports "Unexpected response (HTTP 400)" for an ElevenLabs authentication failure; it now correctly reports the key as rejected.</li>
+                    <li>Every build now stamps a unique CFBundleVersion, so an installed copy can no longer silently sit two weeks behind source while reporting the same build number.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>128</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v1.0.128/CallRecorder-1.0.zip"
+                       sparkle:edSignature="HZqB0llUwO5Eep4XM5/y4NNVExxMAm6LEc89EDBNmTyyNWDy3sgJAAo45pQiGmtxUJBERPmygrzmmtJZpzRGCA=="
+                       length="16740318"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 1.0 (build 126)</title>
             <pubDate>Thu, 13 Aug 2026 12:47:08 +0100</pubDate>
             <description><![CDATA[
