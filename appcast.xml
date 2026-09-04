@@ -6,6 +6,24 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 1.0 (build 135)</title>
+            <pubDate>Thu, 04 Sep 2026 15:10:00 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 1.0 (build 135)</h2>
+                <ul>
+                    <li>The in-call pill no longer bobs up and down while recording. It has a fixed height and only resizes when you pause or pick a label.</li>
+                    <li>The discard prompt now offers a green Keep Recording button instead of Cancel, with Discard still in red.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>135</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v1.0.135/CallRecorder-1.0.zip"
+                       sparkle:edSignature="MT69yfkTjHX8dvEmr+yzu7IbECyG/TsU8NEfxhC5x28aR3WcPrR3t75kg92gepZ3T3MulTHasmUItJ9w3AwTCQ=="
+                       length="16908491"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 1.0 (build 133)</title>
             <pubDate>Thu, 04 Sep 2026 14:20:00 +0100</pubDate>
             <description><![CDATA[
