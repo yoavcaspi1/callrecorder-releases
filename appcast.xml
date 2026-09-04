@@ -6,6 +6,30 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 1.0 (build 133)</title>
+            <pubDate>Thu, 04 Sep 2026 14:20:00 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 1.0 (build 133)</h2>
+                <ul>
+                    <li>Labels replace projects: an editable Labels tab with a destination folder per label, a label picker in the in-call pill that overrides automatic detection, and a notification with a chooser when a label could not be worked out. New {label} placeholder in the naming template.</li>
+                    <li>Preferences reorganised: new Storage, API Keys, Labels, Language and Translation tabs. The Devices tab is gone and the app always records the system default microphone.</li>
+                    <li>Settings search above the sidebar (Command-F), and a Test button on every API key field. API Keys lists only the services in use, with the rest folded away.</li>
+                    <li>Provider lists for transcription, translation, diarization and speaker recognition open collapsed on the selected row.</li>
+                    <li>Excluded callers can be picked from Contacts instead of typed.</li>
+                    <li>Recording folders are named date first, Zoom recordings show the app name correctly, and discarded recordings are purged daily according to the retention setting.</li>
+                    <li>Free-text rename instructions removed; naming and filing are driven by labels alone.</li>
+                    <li>Menu bar simplified; the screenshot reminder stays quiet once a screenshot has been taken.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>133</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v1.0.133/CallRecorder-1.0.zip"
+                       sparkle:edSignature="V36/5G9gBpYJIUJqWV3L+PN9sJECqp87NsK4HI0omsyOVmngzgcmAmTUpDAKChc6/wcYK7tiY7gV3RM24cp3Cw=="
+                       length="16902514"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 1.0 (build 128)</title>
             <pubDate>Wed, 02 Sep 2026 14:46:51 +0100</pubDate>
             <description><![CDATA[
