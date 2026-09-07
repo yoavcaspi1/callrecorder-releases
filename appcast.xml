@@ -6,6 +6,27 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 1.0 (build 136)</title>
+            <pubDate>Mon, 07 Sep 2026 09:30:00 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 1.0 (build 136)</h2>
+                <ul>
+                    <li>Labels now store the exact folder each one files into, edited inline in the Labels tab with the path shown under each label. Existing labels migrate automatically.</li>
+                    <li>New Auto-Filing tab with a single on/off switch; filing follows the label folders.</li>
+                    <li>Engine lists keep the selected engine and its API key visible when collapsed, with clear Show all / Show fewer bars at the top and bottom.</li>
+                    <li>Fallback engine and fallback translation provider have their own sections.</li>
+                    <li>Wording uses labels throughout.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>136</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v1.0.136/CallRecorder-1.0.zip"
+                       sparkle:edSignature="VoHx1Xvhi3vc7/ZbdW23Rgxpmo85JBtKz1QllxgwQvrEGWh2Cw56o0t7Ju1boDtgycuuxNRoqvm1tfhBhMvzDA=="
+                       length="16890734"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 1.0 (build 135)</title>
             <pubDate>Thu, 04 Sep 2026 15:10:00 +0100</pubDate>
             <description><![CDATA[
