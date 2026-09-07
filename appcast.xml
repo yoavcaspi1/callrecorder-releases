@@ -6,6 +6,44 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 1.0 (build 145)</title>
+            <pubDate>Mon, 07 Sep 2026 17:00:00 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 1.0 (build 145)</h2>
+                <p>Builds 137 to 145.</p>
+                <h3>In-call pill</h3>
+                <ul>
+                    <li>The pill snaps to the top edge and hangs off the menu bar as a notch: same size and contents as the floating pill, square top corners, capsule bottom, and no white rim or glow around it. Drag it anywhere along the top edge and the position is remembered.</li>
+                    <li>Hover expansion is gone, along with its Preferences toggle. The pill no longer grows under the cursor.</li>
+                </ul>
+                <h3>Excluded callers</h3>
+                <ul>
+                    <li>A call from an excluded contact now writes nothing to disk. The prompt goes up and the recorder starts only if you click Record anyway.</li>
+                    <li>An excluded call can no longer start recording by itself. The match is remembered for the length of the call and survives a relaunch.</li>
+                    <li>A declined call stays declined.</li>
+                </ul>
+                <h3>Preferences</h3>
+                <ul>
+                    <li>Lists are sorted A to Z. Labels are the exception: they keep the order you entered them in, with a Sort A to Z button.</li>
+                    <li>Clicking an engine row opens that engine's details instead of switching to it. Several rows can be open at once.</li>
+                    <li>English joined the language list and now forces English properly. A language stored before build 141 is no longer read back as forced English.</li>
+                    <li>"Hebrew (forced)" now reads "Hebrew", and the Language tab sits immediately after Speaker Recognition.</li>
+                    <li>Exclusions is a single card. The Auto-Filing tab is gone; a labelled recording goes to its label's folder.</li>
+                </ul>
+                <h3>Build safety</h3>
+                <ul>
+                    <li>The install guard blocks on a live call, not just a live recording, and now sees FaceTime and iPhone Continuity calls.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>145</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v1.0.145/CallRecorder-1.0.zip"
+                       sparkle:edSignature="wVbVgipdixpMUuVRci003Zdxso6R9gbtrWwy9A4PNkzySAtdYv/XXDwBgLGGfBqKaxloas1GNN4l5wJ8+yunBQ=="
+                       length="16985742"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 1.0 (build 136)</title>
             <pubDate>Mon, 07 Sep 2026 09:30:00 +0100</pubDate>
             <description><![CDATA[
