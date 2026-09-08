@@ -6,6 +6,37 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 1.0 (build 154)</title>
+            <pubDate>Tue, 08 Sep 2026 13:50:00 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 1.0 (build 154)</h2>
+                <p>Builds 148 to 154. Permissions, mostly: the app now asks macOS for them itself, tells you where they stand, and never freezes when one is missing.</p>
+                <h3>It no longer freezes when a permission is missing</h3>
+                <ul>
+                    <li>If macOS had not given the app a permission it needs, it put a message on screen that quietly locked everything up: the menu bar icon stopped responding, the in-call pill stopped moving, and it looked like the app had died mid-call. It had not, it was stuck waiting for that message to be answered.</li>
+                    <li>Those messages are ordinary notifications now. Nothing stops working while one is up.</li>
+                </ul>
+                <h3>It asks for permissions itself, and shows you where they stand</h3>
+                <ul>
+                    <li>Instead of pointing you at a switch in System Settings and hoping, the app asks macOS directly for Screen Recording, and for Accessibility if you use the never-record list. Neither is asked for during a call.</li>
+                    <li>Preferences, General shows the Screen and System Audio Recording permission with its current status, so you can see at a glance whether the other person's side of the call will actually be recorded.</li>
+                    <li>There is a Reset and re-request button next to it for the awkward case where macOS says the permission is granted and recording fails anyway. That happens when the permission is still attached to an older copy of the app.</li>
+                </ul>
+                <h3>Excluded contacts always get the countdown</h3>
+                <ul>
+                    <li>People on your never-record list are meant to get an on-screen "not recording" countdown with a Record anyway button, so a call you did want is never lost.</li>
+                    <li>On a fast call the app could spot the excluded contact before it had finished starting up, and the countdown never appeared at all. It now appears every time, once, whichever way the call comes in.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>154</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v1.0.154/CallRecorder-1.0.zip"
+                       sparkle:edSignature="2eGNMCkmeHDNRMUu0hhFU5tBUAqfL6CR8P+q9uEIJ2fVkw7wFtaZ7CZtKYXZZA3GdmWP6MhpZ5bdnKu2ybtQCQ=="
+                       length="17078339"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 1.0 (build 147)</title>
             <pubDate>Tue, 08 Sep 2026 09:24:19 +0100</pubDate>
             <description><![CDATA[

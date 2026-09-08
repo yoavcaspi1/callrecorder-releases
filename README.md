@@ -19,10 +19,10 @@ page. The app updates itself from `appcast.xml` in this repository.
 3. Open it. The icon appears in the menu bar, near the clock. There is no Dock
    icon and no window until you open one.
 
-If macOS blocks the first launch with a message about an unidentified developer,
-open System Settings, go to Privacy and Security, scroll to the message naming
-CallRecorder, click "Open Anyway" and confirm. That is only needed once, and only
-on builds that are not yet notarized by Apple.
+The app is signed with an Apple Developer ID and notarized by Apple, so it opens
+normally. There is no "Open Anyway" step and no trip to Privacy and Security.
+macOS may ask once whether you are sure you want to open something downloaded
+from the internet: click Open.
 
 On first run a wizard asks for Microphone (your side of the call), Screen and
 System Audio Recording (the other side) and Notifications, and asks where to save
