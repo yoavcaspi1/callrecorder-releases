@@ -6,6 +6,37 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 1.0 (build 147)</title>
+            <pubDate>Tue, 08 Sep 2026 09:24:19 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 1.0 (build 147)</h2>
+                <p>Builds 146 and 147. The first release signed and notarized by Apple, so it opens on any Mac without a trip through Privacy and Security.</p>
+                <h3>Signed and notarized by Apple</h3>
+                <ul>
+                    <li>The app carries an Apple Developer ID signature and a notarization ticket. It opens normally. There is no "Open Anyway" step any more.</li>
+                    <li>The bundle is self-contained. Earlier builds quietly relied on files that only existed on the Mac that built them, so the local Hebrew transcription engine could not start anywhere else. Everything the app loads now ships inside it.</li>
+                    <li>The licence terms are in the app, under Preferences, About, Licence.</li>
+                </ul>
+                <h3>Auto-rename works without an API key</h3>
+                <ul>
+                    <li>Auto-rename is on by default, but until now it did nothing at all unless an Anthropic key was set. It now falls back to a local engine that names the recording from what the app already knows: the time of the call, the app the call came through, the label picked in the in-call pill, and a contact name if one was read.</li>
+                    <li>When the configured engine cannot work, the app says so, once, with a button that lands on the key it needs. The notice clears itself the moment a working key answers.</li>
+                </ul>
+                <h3>Error messages name the right service</h3>
+                <ul>
+                    <li>Every key failure used to say ElevenLabs, whatever engine was actually in use. A Pyannote or Gemini problem now says Pyannote or Gemini.</li>
+                    <li>Clicking one of those notifications opens Preferences at that provider's key, rather than leaving you to find it.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>147</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v1.0.147/CallRecorder-1.0.zip"
+                       sparkle:edSignature="Zo9O4lPMBM4n2kxfHPtejzHp3CyRLDjFFYotwzYk7h8vLAnsPiTp9533D8FYsiHn22r9wRfrY6SHbIRklI6aAg=="
+                       length="17037985"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 1.0 (build 145)</title>
             <pubDate>Mon, 07 Sep 2026 17:00:00 +0100</pubDate>
             <description><![CDATA[
