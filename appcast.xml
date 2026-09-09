@@ -6,6 +6,23 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 1.0 (build 162)</title>
+            <pubDate>Wed, 09 Sep 2026 16:35:00 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 1.0 (build 162)</h2>
+                <ul>
+                    <li>The pill no longer shows a grey edge when it is snapped to the top of the screen.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>162</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v1.0.162/CallRecorder-1.0.zip"
+                       sparkle:edSignature="nd0g2DrWc699rSe3SNMmq0ca2sfKcFpO7jlMPGvBPHlidVf0aLl04ShKG7Lem2pVp86nBmXveSfhpk1siLRgBQ=="
+                       length="17229368"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 1.0 (build 161)</title>
             <pubDate>Wed, 09 Sep 2026 12:40:00 +0100</pubDate>
             <description><![CDATA[
