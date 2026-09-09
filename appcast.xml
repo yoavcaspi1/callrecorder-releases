@@ -6,6 +6,47 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 1.0 (build 161)</title>
+            <pubDate>Wed, 09 Sep 2026 12:40:00 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 1.0 (build 161)</h2>
+                <p>Builds 155 to 161. Mostly about the names your recordings get, and about never losing track of the ones that did not get a name.</p>
+                <h3>Names are decided from the whole call</h3>
+                <ul>
+                    <li>The app reads the full transcript before it picks a label, rather than just the opening part of the call. A call that only gets to the point halfway through is still filed correctly.</li>
+                </ul>
+                <h3>You can tell the app who you work with</h3>
+                <ul>
+                    <li>Preferences has a new Context tab. Write a few lines in plain English about the people you speak with, which projects they belong to, and any naming rules of your own, and the app uses that when it names a recording.</li>
+                    <li>Export and Import buttons in the same tab let you carry the same context across to another Mac instead of typing it out twice.</li>
+                </ul>
+                <h3>You can choose which Claude model does the naming</h3>
+                <ul>
+                    <li>There is a picker for it in Preferences. The faster model costs less and is fine for most calls, the more capable one is better when your context is long or the calls are complicated.</li>
+                </ul>
+                <h3>Nothing is quietly left unnamed</h3>
+                <ul>
+                    <li>If any recordings are still without a label, a small badge appears on the menu bar icon with the count, and a row in the menu takes you straight to them.</li>
+                    <li>That row has a Re-examine button that runs them through the naming again, which is what you want after writing or updating your context.</li>
+                    <li>The count updates the moment a label lands, instead of lagging a second behind.</li>
+                </ul>
+                <h3>Smaller things</h3>
+                <ul>
+                    <li>People on your never-record list are now matched on FaceTime and on calls relayed from your iPhone, not only on some kinds of call.</li>
+                    <li>The empty date and year folders left behind when a recording is filed are removed automatically, so the recordings folder stays readable.</li>
+                    <li>Settings changed outside the app are no longer overwritten. The app notices them and keeps them.</li>
+                    <li>The Refresh button no longer collapses the panel it sits in, and a stray divider above Open Recordings Folder in the menu is gone.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>161</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v1.0.161/CallRecorder-1.0.zip"
+                       sparkle:edSignature="hG2U4djvtFBhdF6g2i1q6sN/ZG2xBIbrkJ+yMPUZd8lCM25izl+GIzz5299A5coRjc/lc/eAhIcvkfYoqP/bBA=="
+                       length="17229348"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 1.0 (build 154)</title>
             <pubDate>Tue, 08 Sep 2026 13:50:00 +0100</pubDate>
             <description><![CDATA[
