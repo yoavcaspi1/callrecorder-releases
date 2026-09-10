@@ -6,6 +6,25 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 1.0 (build 166)</title>
+            <pubDate>Thu, 10 Sep 2026 10:45:00 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 1.0 (build 166)</h2>
+                <ul>
+                    <li>Enrolling a voice is guided: a passage to read aloud, a countdown and a level meter, stopping itself after 20 seconds, and a check that the recording is usable before it is saved.</li>
+                    <li>The in-call pill names the label control when it is on Auto, and the spacing across the row is even.</li>
+                    <li>"Record anyway" on the excluded-contact prompt is now a solid green button.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>166</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v1.0.166/CallRecorder-1.0.zip"
+                       sparkle:edSignature="IyI7T5uNIAwVvMjqP7nTcqIPdmAcn777iI81FgOMLIRwkvcvY6e5rxL3iIxTdkVIkQzCgWtn+piLl6YdiuuZCA=="
+                       length="17259194"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 1.0 (build 162)</title>
             <pubDate>Wed, 09 Sep 2026 16:35:00 +0100</pubDate>
             <description><![CDATA[
