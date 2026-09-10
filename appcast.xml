@@ -6,6 +6,39 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 1.0 (build 170)</title>
+            <pubDate>Thu, 10 Sep 2026 16:10:00 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 1.0 (build 170)</h2>
+                <p>Builds 167 to 170. Mostly about the recorded audio itself, and it is the biggest improvement to recording quality so far.</p>
+                <h3>The other person no longer leaks into your track</h3>
+                <ul>
+                    <li>On a call taken on the speakers, your microphone hears the other person coming back out of them, and the app could mistake that for you talking. It now works out how your speakers feed back into your microphone at the start of each call and ignores that echo, so each voice stays on its own side. On a headphones call there is no echo to model, the app notices, and nothing about the recording changes.</li>
+                    <li>The handover between the two voices is faster and cleaner. A brief pause between words no longer counts as the other person finishing, and every change in level is eased in over a fraction of a second instead of jumping. The difference is most noticeable on long calls.</li>
+                </ul>
+                <h3>Long recordings stay in step</h3>
+                <ul>
+                    <li>Both tracks are now written using the exact times the system gives each piece of audio, rather than by counting. If either side of the call stutters for a moment, that gap is filled with real silence in the right place and everything after it stays where it belongs. Before this, a short interruption early on could shift the rest of the recording out of step, and the longer the call the further out it drifted.</li>
+                </ul>
+                <h3>A nudge to label the call</h3>
+                <ul>
+                    <li>One minute into a recording the pill reminds you to label the call and points at the control. It stays quiet when the call already has a label, when there is nothing to label it with, or when the call is one you have excluded.</li>
+                    <li>The screenshot reminder now checks first: if you have already taken a screenshot of the call, it says nothing.</li>
+                </ul>
+                <h3>Finding a setting</h3>
+                <ul>
+                    <li>The search box in Preferences is now an autocomplete. The list of tabs stays put while you type and the matching settings appear underneath the box, each with the tab it lives on. Arrow keys walk the list, Return opens the one you picked, and Escape clears it.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>170</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v1.0.170/CallRecorder-1.0.zip"
+                       sparkle:edSignature="S4FBmYKD2GLzhzy44W7XTqiCtOsdjMMtsow5nC5nGI9uW78+L8G4eFrOnfsTc968xqRtARQaI2jxAj4GrqTIDw=="
+                       length="17309359"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 1.0 (build 166)</title>
             <pubDate>Thu, 10 Sep 2026 10:45:00 +0100</pubDate>
             <description><![CDATA[
