@@ -6,6 +6,39 @@
         <description>Appcast feed for Call Recorder automatic updates.</description>
         <language>en</language>
         <item>
+            <title>Call Recorder 1.0 (build 174)</title>
+            <pubDate>Fri, 11 Sep 2026 16:30:00 +0100</pubDate>
+            <description><![CDATA[
+                <h2>Call Recorder 1.0 (build 174)</h2>
+                <p>Builds 171 to 174. Two things: where the speech models are kept is now your choice, and a call can belong to more than one project.</p>
+                <h3>Choose where the speech models are kept</h3>
+                <ul>
+                    <li>The two engines that transcribe on your own Mac each download a model file once and keep it. WhisperKit's is a few hundred megabytes, the Hebrew one is about 2.9 GB. Preferences, Storage now shows where they are and lets you put them anywhere you can write to, an external drive included.</li>
+                    <li>Every model you have downloaded is listed with its own size and whether an engine is using it, under a total for the folder, and each has its own Delete button. Delete unused models clears everything no engine needs in one go, including an old cache that an earlier version of WhisperKit left in your Documents folder.</li>
+                    <li>Point it at a new folder and it offers to move what you have already downloaded rather than download it again, with progress for each file. It checks before it touches anything: too little free space, a folder inside the current one, or a drive that is not plugged in is refused up front, and you are offered the change without the move instead. Across drives the copy is checked before the original is deleted.</li>
+                    <li>If you keep the models on an external drive and start the Mac without it, nothing breaks and nothing is quietly downloaded again. The Storage tab says the folder is not there and names it, models in the built-in location still work, and new downloads wait until either the drive is back or you press Use Built-in Location For Now. Your choice is remembered throughout, so plugging the drive back in puts everything as it was.</li>
+                </ul>
+                <h3>A call can carry more than one label</h3>
+                <ul>
+                    <li>The label tick boxes, in the pill during a call and in the window that asks afterwards, now take as many labels as the call was about. Auto clears them all and leaves the naming to the app.</li>
+                    <li>The labels go into the folder name joined by a plus and no spaces, in the order you ticked them, so a call about two projects reads 254+HYDE.</li>
+                    <li>A copy of the whole recording is filed in each label's folder, so the call is there whichever project you go looking in. Two labels that point at the same folder make one copy, not two. Every copy is checked file by file before the original is removed, and if one of them fails the recording stays whole where it is and the log says which folder refused it.</li>
+                    <li>Ticking another label onto a call that is already filed adds a copy in that label's folder and renames the others to match. Unticking one leaves that folder's copy alone, renamed, and names it in the log for you to delete yourself, rather than the app removing a filed recording on your behalf.</li>
+                </ul>
+                <h3>The window that asks about a call now looks like the rest of the app</h3>
+                <ul>
+                    <li>It was the last window still in plain grey. It now uses the same cards and the same type as Preferences, opens with the recording's name and the date and time of the call underneath, shows the finished name taking shape as you tick, and keeps Apply and Leave unlabelled at the foot of the window where a long list of labels cannot push them out of reach. It can be resized.</li>
+                </ul>
+            ]]></description>
+            <sparkle:version>174</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yoavcaspi1/callrecorder-releases/releases/download/v1.0.174/CallRecorder-1.0.zip"
+                       sparkle:edSignature="3fVOnlRvSziarg6jz9P2YlPxtLSwBPgrXy/bh07fAvx9qpZ5fhZpreyf1aNi0W4aDkJoD2EFdc7EQX9GSYhGAA=="
+                       length="17374690"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Call Recorder 1.0 (build 170)</title>
             <pubDate>Thu, 10 Sep 2026 16:10:00 +0100</pubDate>
             <description><![CDATA[
